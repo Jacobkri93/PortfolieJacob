@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="da" xmlns:th="http://www.thymeleaf.org">
+<!-- inside of the html tag is where all your html will go -->
+<head>
+    <!-- This is where you put meta information about the page: favicon, title, social media tags etc -->
+    <link rel="stylesheet" type="text/css" href="styling/styles.css">
+
+
+    <meta charset="utf-8">
+
+    <title>Jacob Kamstrup 💯 </title>
+
+
+
+
+
+</head>
+<body>
+<!-- In the body is where you put the content of your website -->
+<main></main>
+<header>
+
+
+    <div class="navbar">
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a href="#social">Social</a>
+    </div>
+
+    <div class="main">
+        <p><i>Under development..</i></p>
+    </div>
+
+</header>
+<span>
+    <section class="About-me">
+        <div class="headline">
+        <h1>Welcome to my portfolio</h1>
+        </div>
+        <img class="profilepic" src="../static/images/profilepic.jpg" alt="Profile picture" width="200" height="200"
+             th:src="@{images/profilepic.jpg}">
+        <article><h3>About me:</h3>
+        <div>My name is Jacob, I am 27 years old and I am currently studying on my 2nd semester of Data Science at KEA.</div>
+        <div>Mainly we have dived deep into the Java programming language, and object oriented development, and we are getting started on HTML, CSS and some mySQL</div>
+        <div>I live in Copenhagen with my girlfriend, she is studying her Bachelor of Science in Business Administration and Commercial Law on CBS. </div>
+        </article>
+
+</section>
+</span>
+<p>My interests are:</p>
+<div class="interests">
+    <ul>
+        <li>Programming and software</li>
+        <li>Fitness</li>
+        <li>Food</li>
+        <li>Electronics & Gaming</li>
+    </ul>
+
+</div>
+<hr style="border-color: #4a4a4a">
+
+<div id="education">
+    <h3>Education:</h3>
+    <ul>
+        <li>Data Science - 2020-2023 (ongoing)</li>
+        <li>Single subject studies Mathematics level C-B Niels Brock Copenhagen - 2019-2020</li>
+        <li>Compulsory Military Service Skive - 2013-2014</li>
+        <li>Gribskov Gymnasium - 2010-2013</li>
+    </ul>
+</div>
+
+<hr style="border-color: #4a4a4a">
+<div id="experience">
+    <h3>Work experience:</h3>
+    <ul>
+        <li><b>Elgigantens Kundecenter: 2015-2021</b></li>
+        <p>Teamleader in customer service department</p>
+        <li><b>Johannes Fog Trælast og Byggemarkedet: 2010-2015</b></li>
+        <p>Part-time and later full-time salesperson and assistant.</p>
+        <li>Bartender <i>various places</i>: 2015-2020</li>
+        <p>Bartender</p>
+    </ul>
+</div>
+<hr style="border-color: #4a4a4a">
+<span>
+        <h3>My work:</h3>
+        <p>Comming <i>soon...</i></p>
+    </span>
+<hr style="border-color: #4a4a4a">
+<div id="contact">
+    <h4>Contact information:</h4>
+
+
+    <p><b>Phone:</b> +45 25546021</p>
+    <p><b>Mail:</b> kamstrup1993@gmail.com</p>
+</div>
+
+
+<footer>
+    <div id="social">
+        <h4>Social:</h4>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/jacob-kamstrup-8b1616108/">Linkedin</a></li>
+            <li><a href="https://www.facebook.com/jacob.kamstrup.3">Facebook</a></li>
+            <li><a href="https://github.com/Jacobkri93">GitHub</a></li>
+        </ul>
+    </div>
+    <!-- In the footer you have things like contact information, links, address-->
+</footer>
+</body>
+</html>
